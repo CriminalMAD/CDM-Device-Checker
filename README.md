@@ -37,6 +37,10 @@ INSTRUCTIONS:
 - You can edit the output file name format (see in config.py)
 - And some little changes
 
+SAMPLE OUTPUT:
+
+![image](https://user-images.githubusercontent.com/62680932/148638846-c10c90d0-7251-4287-9ae2-6c886575f4a6.png)
+
 ---
 
 ## [1.0.4] | 2021-12-27
