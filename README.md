@@ -28,6 +28,29 @@ INSTRUCTIONS:
 
 ## **CHANGELOGS**
 
+## [1.0.7] | 2022-01-28
+
+- Automatically run "add_context_menu.bat" as admin
+- Don't write challenge.txt automatically
+- Print client id blob basic info if --quite mode enabled
+- Prompt to load challenge from "challenge.txt" if input is empty
+- Colored is now optional (see config.py)
+    - NOTE: For windows 7, if you want to print colored text, you can use **[ansicon](https://github.com/adoxa/ansicon/releases)**.
+    - INSTRUCTIONS:
+        - Extract the zip file
+        - Take the folder (x86 if you are using 32bit / x64 if 64bit) and place somewhere and then add the binary to your **Environment Variables**
+        - Simply run for the first time in your cmd: **`ansicon -i`**
+        - Now it should be injected to your cmd and colored text should show normally.
+
+---
+
+## [1.0.6] | 2022-01-23
+
+- Saving file is now optional (add --save arg to save the file)
+- Added os_version info
+
+---
+
 ## [1.0.5] | 2022-01-08
 
 - Removed context_menu.reg and replaced with batch file instead to automatically assign the current check.bat full path
